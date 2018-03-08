@@ -57,7 +57,7 @@ p {
 }
 
 a:hover, a:focus {
-  color: #61D2B4;
+  color: #23cdfd;
 }
 
 a {
@@ -94,7 +94,8 @@ a:not([href]):not([tabindex]) {
 }
 
 a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
-  color: #61D2B4;
+  /*color: #23cdfd;*/
+  color: #fff;
 }
 
 /* ==========================================================================
@@ -120,7 +121,7 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
 }
 
 .section-header .section-title span {
-  color: #61D2B4;
+  color: #23cdfd;
 }
 
 .section-header .section-subtitle {
@@ -134,7 +135,7 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
   margin: auto;
   width: 70px;
   position: relative;
-  border-top: 2px solid #61D2B4;
+  border-top: 2px solid #23cdfd;
   margin-top: 15px;
 }
 
@@ -163,8 +164,8 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
 }
 
 .btn-common {
-  border: 1px solid #61D2B4;
-  background: #61D2B4;
+  border: 1px solid #23cdfd;
+  background: #23cdfd;
   position: relative;
   color: #fff;
   z-index: 1;
@@ -173,8 +174,8 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
 
 .btn-common:hover {
   color: #fff;
-  background: #33b391;
-  border-color: #33b391;
+  background: #f38940;
+  border-color: #f38940;
   transition: all .50s ease-in-out;
   -moz-transition: all .50s ease-in-out;
   -webkit-transition: all .50s ease-in-out;
@@ -190,7 +191,7 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
 .btn-border:hover {
   border: 2px solid #fff;
   color: #fff;
-  background-color: #61D2B4;
+  background-color: #23cdfd;
 }
 
 .btn-lg {
@@ -340,7 +341,7 @@ button:focus {
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  background-color: #61D2B4;
+  background-color: #23cdfd;
   opacity: 0.6;
   position: absolute;
   top: 0;
@@ -393,7 +394,7 @@ button:focus {
   font-size: 14px;
   text-align: center;
   border-radius: 4px;
-  background-color: #61D2B4;
+  background-color: #23cdfd;
   -webkit-transition: all 0.2s linear;
   -moz-transition: all 0.2s linear;
   -o-transition: all 0.2s linear;
@@ -404,7 +405,8 @@ button:focus {
    3. Hero Area
    ========================================================================== */
 #hero-area {
-  background: url(../img/hero-area.jpg) fixed no-repeat;
+  /*background: url(../img/hero-area.jpg) fixed no-repeat;*/
+  background: url(../img/office-back.webp) fixed no-repeat;
   background-size: cover;
   color: #fff;
   overflow: hidden;
@@ -417,7 +419,7 @@ button:focus {
   height: 100%;
   top: 0px;
   left: 0px;
-  background: #61D2B4;
+  background: #23cdfd;
   opacity: 0.9;
 }
 
@@ -426,7 +428,7 @@ button:focus {
 }
 
 #hero-area .contents h1 {
-  color: #fff;
+  color: #000;
   font-size: 42px;
   font-weight: 700;
   margin-bottom: 25px;
@@ -459,7 +461,7 @@ button:focus {
 }
 
 #hero-area .banner_bottom_btn i:hover {
-  color: #61D2B4;
+  color: #23cdfd;
 }
 
 /* ==========================================================================
@@ -496,7 +498,7 @@ button:focus {
 }
 
 .top-nav-collapse .navbar-nav .nav-link:hover {
-  color: #61D2B4 !important;
+  color: #23cdfd !important;
 }
 
 .top-nav-collapse .navbar-nav .nav-link.active {
@@ -523,12 +525,12 @@ button:focus {
 .navbar-expand-lg .navbar-nav li a:hover,
 .navbar-expand-lg .navbar-nav li .active > a,
 .navbar-expand-lg .navbar-nav li a:focus {
-  color: #61D2B4;
+  color: #23cdfd;
 }
 
 .navbar .nav-link.active {
   color: #fff !important;
-  background: #61D2B4;
+  background: #23cdfd;
 }
 
 .dropdown-toggle::after {
@@ -536,11 +538,11 @@ button:focus {
 }
 
 .slicknav_btn {
-  border-color: #61D2B4;
+  border-color: #23cdfd;
 }
 
 .slicknav_menu .slicknav_icon-bar {
-  background: #61D2B4;
+  background: #23cdfd;
 }
 
 /* only small tablets */
@@ -581,16 +583,16 @@ button:focus {
     display: block;
   }
   .slicknav_nav .active a {
-    background: #61D2B4;
+    background: #23cdfd;
     color: #fff;
   }
   .slicknav_nav a:hover, .slicknav_nav .active {
-    color: #61D2B4;
+    color: #23cdfd;
     background: #f8f9fa;
   }
   .slicknav_nav .dropdown li a.active {
     background: #f8f9fa;
-    color: #61D2B4;
+    color: #23cdfd;
   }
 }
 
@@ -622,7 +624,7 @@ button:focus {
 .item-boxes .icon i {
   font-size: 26px;
   line-height: 60px;
-  color: #61D2B4;
+  color: #23cdfd;
 }
 
 .item-boxes h4 {
@@ -632,7 +634,7 @@ button:focus {
 }
 
 .item-boxes:hover .icon {
-  background: #61D2B4;
+  background: #23cdfd;
 }
 
 .item-boxes:hover .icon i {
@@ -643,7 +645,7 @@ button:focus {
   6. Features Section Style
    ========================================================================== */
 #features {
-  background: url(../img/bg1.jpg) fixed no-repeat;
+  background: url(../img/office-front.webp) fixed no-repeat;
   background-size: cover;
   color: #fff;
   overflow: hidden;
@@ -673,7 +675,7 @@ button:focus {
 }
 
 #features .box-item .icon {
-  border: 1px solid #61D2B4;
+  border: 1px solid #23cdfd;
   text-align: center;
   float: left;
   -webkit-transition: all 0.2s linear;
@@ -683,7 +685,7 @@ button:focus {
 }
 
 #features .box-item .icon i {
-  color: #61D2B4;
+  color: #23cdfd;
   font-size: 24px;
   line-height: 60px;
   -webkit-transition: all 0.2s linear;
@@ -697,7 +699,7 @@ button:focus {
 }
 
 #features .box-item .text h4 {
-  color: #61D2B4;
+  color: #23cdfd;
   font-weight: 700;
   font-size: 16px;
   text-transform: uppercase;
@@ -710,7 +712,7 @@ button:focus {
 }
 
 #features .box-item:hover .icon {
-  background: #61D2B4;
+  background: #23cdfd;
 }
 
 #features .box-item:hover .icon i {
@@ -726,7 +728,7 @@ button:focus {
   7. Video promo Style
    ========================================================================== */
 .video-promo {
-  background: #61D2B4;
+  background: #23cdfd;
   color: #fff;
   overflow: hidden;
   position: relative;
@@ -771,7 +773,7 @@ button:focus {
   height: 100%;
   top: 0px;
   left: 0px;
-  background: #61D2B4;
+  background: #23cdfd;
   opacity: 0.9;
   filter: alpha(opacity=90);
 }
@@ -797,8 +799,8 @@ button:focus {
 }
 
 .controls .active {
-  color: #61D2B4 !important;
-  border-color: #61D2B4;
+  color: #23cdfd !important;
+  border-color: #23cdfd;
   background: transparent;
 }
 
@@ -851,7 +853,7 @@ button:focus {
   height: 48px;
   width: 48px;
   line-height: 48px;
-  color: #61D2B4;
+  color: #23cdfd;
   left: 50%;
   margin-left: -24px;
   margin-top: -24px;
@@ -866,12 +868,12 @@ button:focus {
   -webkit-transition: all 0.5s ease-in-out;
   -moz-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
-  border: 1px solid #61D2B4;
+  border: 1px solid #23cdfd;
   border-radius: 50%;
 }
 
 .overlay .item-icon:hover {
-  background: #61D2B4;
+  background: #23cdfd;
   color: #fff;
 }
 
@@ -914,7 +916,7 @@ button:focus {
   display: inline-block;
   font-size: 48px;
   font-weight: 400;
-  color: #61D2B4;
+  color: #23cdfd;
   margin-bottom: 20px;
 }
 
@@ -1007,7 +1009,7 @@ button:focus {
 }
 
 .owl-theme .owl-controls .owl-page span {
-  background: #61D2B4;
+  background: #23cdfd;
 }
 
 .owl-theme .owl-controls {
@@ -1027,7 +1029,7 @@ button:focus {
   transition: 0.5s;
   box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
   border-radius: 0px;
-  background: #61D2B4;
+  background: #23cdfd;
   overflow: hidden;
 }
 
@@ -1072,7 +1074,7 @@ button:focus {
   text-align: center;
   width: 34px;
   margin: 2px;
-  color: #61D2B4;
+  color: #23cdfd;
   font-size: 14px;
   background: #fff;
   border-radius: 50px;
@@ -1142,7 +1144,7 @@ button:focus {
 }
 
 #blog .blog-item-text h3 a:hover {
-  color: #61D2B4;
+  color: #23cdfd;
 }
 
 #blog .blog-item-text p {
@@ -1168,7 +1170,7 @@ button:focus {
 }
 
 .meta-tags span a:hover {
-  color: #61D2B4;
+  color: #23cdfd;
 }
 
 /* ==========================================================================
@@ -1180,7 +1182,7 @@ button:focus {
 }
 
 .contact-us p span {
-  color: #61D2B4;
+  color: #23cdfd;
   padding-left: 10px;
 }
 
@@ -1207,7 +1209,7 @@ button:focus {
 .form-control:focus {
   box-shadow: none;
   color: #fff;
-  border-color: #61D2B4;
+  border-color: #23cdfd;
   background: transparent;
   outline: none;
 }
@@ -1250,7 +1252,7 @@ footer {
 }
 
 .footer-links li a:hover {
-  color: #61D2B4;
+  color: #23cdfd;
 }
 
 .copyright {
@@ -1267,5 +1269,5 @@ footer {
 }
 
 .copyright p a:hover {
-  color: #61D2B4;
+  color: #23cdfd;
 }
