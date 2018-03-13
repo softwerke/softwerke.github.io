@@ -528,6 +528,10 @@ button:focus {
   color: #23cdfd;
 }
 
+.navbar img.img-fulid {
+  padding: 5px;
+}
+
 .navbar .nav-link.active {
   color: #fff !important;
   background: #23cdfd;
@@ -644,7 +648,7 @@ button:focus {
 /* ==========================================================================
   6. Features Section Style
    ========================================================================== */
-#features {
+#technology {
   background: url(../img/office-front.webp) fixed no-repeat;
   background-size: cover;
   color: #fff;
@@ -652,15 +656,15 @@ button:focus {
   position: relative;
 }
 
-#features .section-title {
+#technology .section-title {
   color: #fff;
 }
 
-#features .section-subtitle {
+#technology .section-subtitle {
   color: #fff;
 }
 
-#features .icon {
+#technology .icon {
   display: inline-block;
   width: 60px;
   height: 60px;
@@ -670,11 +674,11 @@ button:focus {
   z-index: 1;
 }
 
-#features .box-item {
+#technology .box-item {
   padding: 15px 0;
 }
 
-#features .box-item .icon {
+#technology .box-item .icon {
   border: 1px solid #23cdfd;
   text-align: center;
   float: left;
@@ -684,7 +688,7 @@ button:focus {
   transition: all 0.2s linear;
 }
 
-#features .box-item .icon i {
+#technology .box-item .icon i {
   color: #23cdfd;
   font-size: 24px;
   line-height: 60px;
@@ -694,11 +698,11 @@ button:focus {
   transition: all 0.2s linear;
 }
 
-#features .box-item .text {
+#technology .box-item .text {
   padding-left: 80px;
 }
 
-#features .box-item .text h4 {
+#technology .box-item .text h4 {
   color: #23cdfd;
   font-weight: 700;
   font-size: 16px;
@@ -706,20 +710,20 @@ button:focus {
   line-height: 22px;
 }
 
-#features .box-item .text p {
+#technology .box-item .text p {
   font-size: 14px;
   line-height: 26px;
 }
 
-#features .box-item:hover .icon {
+#technology .box-item:hover .icon {
   background: #23cdfd;
 }
 
-#features .box-item:hover .icon i {
+#technology .box-item:hover .icon i {
   color: #ffffff;
 }
 
-#features .show-box img {
+#technology .show-box img {
   position: absolute;
   bottom: -120px;
 }
@@ -781,11 +785,11 @@ button:focus {
 /* ==========================================================================
   8. Portfolio Section
    ========================================================================== */
-#portfolios .mix {
+#solutions .mix {
   padding: 10px;
 }
 
-#portfolios .portfolio-item .shot-item {
+#solutions .portfolio-item .shot-item {
   margin: 0px;
 }
 
