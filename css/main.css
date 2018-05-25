@@ -407,7 +407,7 @@ button:focus {
    ========================================================================== */
 #hero-area {
   /*background: url(../img/hero-area.jpg) fixed no-repeat;*/
-  background: url(../img/office-back.webp) fixed no-repeat;
+  background: url(../img/office-back.jpg) fixed no-repeat;
   background-size: cover;
   color: #fff;
   overflow: hidden;
@@ -650,7 +650,7 @@ button:focus {
   6. Features Section Style
    ========================================================================== */
 #technology {
-  background: url(../img/office-front.webp) fixed no-repeat;
+  background: url(../img/office-front.jpg) fixed no-repeat;
   background-size: cover;
   color: #fff;
   overflow: hidden;
