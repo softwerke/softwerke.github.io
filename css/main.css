@@ -650,7 +650,7 @@ button:focus {
   6. Features Section Style
    ========================================================================== */
 #technology {
-  background: url(../img/office-front.jpg) fixed no-repeat;
+  background: url(../img/office-front-dark.jpg) fixed no-repeat;
   background-size: cover;
   color: #fff;
   overflow: hidden;
