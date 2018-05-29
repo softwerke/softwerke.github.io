@@ -680,7 +680,7 @@ button:focus {
 }
 
 #technology .box-item .icon {
-  border: 1px solid #23cdfd;
+  /* border: 1px solid #23cdfd; */
   text-align: center;
   float: left;
   -webkit-transition: all 0.2s linear;
@@ -698,6 +698,41 @@ button:focus {
   -o-transition: all 0.2s linear;
   transition: all 0.2s linear;
 }
+
+#technology .box-item .icon img {
+  height: 60px;
+  width: 60px;
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+
+#technology .box-item .icon img.hadoop {
+  height: 50px;
+  width: unset;
+  margin-top: 5px;
+}
+#technology .box-item .icon img.microservice {
+  width: unset;
+  margin-top: 5px;
+  height: 60px;
+  margin-top: -2px;
+  margin-left: -1px;
+}
+
+#technology .box-item .icon img.go {
+  height: 50px;
+  width: unset;
+  margin-top: 5px;
+}
+
+#technology .box-item .icon img.java {
+  height: 70px;
+  width: unset;
+}
+
+
 
 #technology .box-item .text {
   padding-left: 80px;
@@ -717,7 +752,7 @@ button:focus {
 }
 
 #technology .box-item:hover .icon {
-  background: #23cdfd;
+  background: #fff;
 }
 
 #technology .box-item:hover .icon i {
