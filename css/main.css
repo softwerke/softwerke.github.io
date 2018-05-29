@@ -1234,6 +1234,16 @@ button:focus {
   position: relative;
 }
 
+#contact .section-title {
+  color: white;
+  padding-top: 50px;
+}
+
+#contact .impressum {
+  text-align: center;
+  color: #999;
+}
+
 .form-control {
   width: 100%;
   margin-bottom: 10px;
