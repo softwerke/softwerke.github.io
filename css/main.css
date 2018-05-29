@@ -676,7 +676,7 @@ button:focus {
 }
 
 #technology .box-item {
-  padding: 15px 0;
+  padding: 15px 1px;
 }
 
 #technology .box-item .icon {
