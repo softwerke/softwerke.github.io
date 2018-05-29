@@ -959,7 +959,9 @@ button:focus {
   color: #23cdfd;
   margin-bottom: 20px;
 }
-
+.pricing-table .pricing-details p {
+  margin: 15px;
+}
 .pricing-table .pricing-details ul {
   margin-bottom: 35px;
 }
