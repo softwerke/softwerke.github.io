@@ -7,7 +7,7 @@ const createClickHandler = () => {
    
         console.log('purchase-event');
         gtag("event", "purchase", {
-            transaction_id: "T_12345",
+            transaction_id: "T_" + new Date().getTime(),
             // Sum of (price * quantity) for all items.
             value: 19.98,
             tax: 0.0,
